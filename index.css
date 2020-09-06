@@ -1,0 +1,408 @@
+/*======EVERYTHING CSS======*/
+* {
+    font-family: 'Gruppo', sans-serif;
+}
+
+ul
+li {
+    display: inline;
+    font-size: 1em !important;
+}
+
+.jarallax {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.blk-btn {
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0px;
+    padding: 10px 50px 10px 50px;
+    background-color: transparent;
+    font-size: 1.4em;
+}
+
+.blk-btn:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    transition: 0.6s;
+}
+
+.blk-btn:focus,
+.blk-btn:active {
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0px;
+    padding: 10px 50px 10px 50px;
+    background-color: black;
+    font-size: 1.4em;
+}
+
+.btn-white {
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+    font-size: 1.4em;
+}
+
+.btn-white:hover {
+    background-color: white;
+    color: black;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    transition: 0.6s;
+}
+
+.btn-white:focus,
+.btn-white:active {
+    color: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    font-size: 1.4em;
+}
+
+#pg {
+    font-size: 1.4em;
+}
+
+/*======NAVBAR CSS======*/
+.navbar {
+    background-color: white;
+    min-height: 100px !important;
+    border-bottom-color: transparent !important;
+}
+
+.navbar a {
+    margin-top: 15px !important;
+}
+
+.navbar-toggle {
+    margin-top: 25px !important;
+}
+
+a:hover { 
+    text-decoration: none !important;
+}
+
+a:active {
+    text-decoration: none !important;
+    border: none !important;
+}
+
+a:focus {
+    outline: 0 !important;
+    text-decoration: none !important;
+    border: none !important;
+}
+
+/*======BACKGROUND CSS======*/
+.bg {
+    height: 725px;
+    margin-top: 75px;
+}
+
+.bg h1 {
+    color: white;
+    font-size: 4em;
+    text-transform: uppercase;
+    margin-top: 200px;
+}
+
+.bg p {
+    color: white;
+    font-size: 2em !important;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*======ABOUT CSS======*/
+.about {
+    margin-top: 100px;
+}
+
+.about h1 {
+    text-transform: uppercase;
+    margin-top: 55px;
+}
+
+.about p {
+    font-size: 1.4em;
+    line-height: 1.6em;
+    margin-top: 75px;
+}
+
+.team p {
+    margin-top: 25px;
+}
+
+.team .row {
+    margin-top: 100px;
+}
+
+.team i {
+    padding-left: 10px;
+    color: black;
+    font-size: 1.5em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*======FACTS CSS======*/
+.facts {
+    margin-top: 100px;
+    height: 500px;
+    color: white;
+}
+
+.facts .row {
+    margin-top: 215px;
+}
+
+/*======SERVICES CSS======*/
+.services {
+    margin-top: 100px;
+}
+
+.services h1 {
+    text-transform: uppercase;
+    margin-top: 55px;
+}
+
+.services .row:nth-child(3) {
+    margin-top: 75px;
+}
+
+.services .row:nth-child(4) {
+    margin-top: 35px;
+}
+
+/*======INFO CSS======*/
+.info {
+    color: white;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.info p {
+    font-size: 4em;
+    margin-top: 100px;
+}
+
+/*======WORKS CSS======*/
+.works {
+    margin-top: 100px;
+}
+
+.works h1 {
+    text-transform: uppercase;
+    margin-top: 55PX;
+}
+
+.works .row {
+    margin-top: 75px;
+}
+
+/*======PROCESS CSS======*/
+.process {
+    margin-top: 100px;
+}
+
+.process h1 {
+    text-transform: uppercase;
+    margin-top: 55PX;
+}
+
+.process .row {
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+
+.process p {
+    font-size: 1.2em;
+    margin-top: 25px;
+}
+
+/*======CLIENTS CSS======*/
+.clients {
+    margin-top: 150px;
+    height: 350px;
+    color: white;
+}
+
+.clients .item {
+    margin-top: 125px;
+}
+
+.clients .item p {
+    font-size: 1.8em;
+}
+
+
+/*======PRICING CSS======*/
+.pricing {
+    margin-top: 100px;
+}
+
+.pricing h1 {
+    text-transform: uppercase;
+    margin-top: 55PX;
+}
+
+.pricing .row {
+    margin-top: 100px;
+}
+
+.pricing a {
+    border-radius: 0px;
+}
+
+.price_table_body {
+    border-style: solid;
+    border-width: thin;
+	border-color: black;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.price_table_container{
+    margin-top:35px;
+}
+
+.price_table_heading{
+	font-size:36px;
+	padding:10px;
+	border-style: solid;
+    border-width: thin;
+	border-color: black;
+}
+
+.price_table_row {
+    padding:15px;
+}
+
+.cost{
+	padding:30px;
+	font-size:30px;
+}
+.cost span{
+	font-size:15px;
+}
+
+.price_table_row:nth-of-type(even) {
+    background: white;
+}
+
+.lastone {
+    margin-bottom: 0px;
+}
+
+
+/*======SOCIAL CSS======*/
+.social {
+    margin-top: 150px;
+    height: 500px;
+}
+
+.social h1 {
+    text-transform: uppercase;
+    margin-top: 100PX;
+    color: white;
+}
+
+.social-icons li {
+    display: inline;
+    padding-left: 18px;
+}
+
+.social-icons i {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    margin-top: 100px;
+}
+
+.social-icons i:hover {
+    background-color: white;
+    color: black;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    transition: 0.6s;
+}
+
+/*======CONTACT CSS======*/
+.contact {
+    margin-top: 100px;
+}
+
+.contact h1 {
+    text-transform: uppercase;
+    margin-top: 55PX;
+}
+
+.contact .row {
+    margin-top: 50px;
+}
+
+.form-group input {
+    border-radius: 0px;
+    border-color: black;
+    -webkit-appearance: none;
+    outline: none;
+    height: 50px;
+}
+
+.email {
+    margin-top: -15px;
+} 
+
+.form-group .msg {
+    border-radius: 0px;
+    border-color: black;
+    -webkit-appearance: none;
+    outline: none;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.alert-success {
+    color: white !important;
+    background-color: black !important;
+}
+
+/*======FOOTER CSS======*/
+footer {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+footer h1 {
+    font-size: 1em;
+    margin-top: 50px;
+}
